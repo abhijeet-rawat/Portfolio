@@ -1,0 +1,59 @@
+
+.vsLink{
+   padding-right: 80px;
+}
+
+.proLink{
+    padding-right: 10px;
+}
+
+.img-circle {
+    border-radius: 0.5%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+      color: #818181;
+
+  }
+
+  .main-container {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+
+  .main-container h2{
+      text-align: center;
+  }
+.main-container p{
+    text-align: center;
+}
+
+.main-container div{
+    text-align: center;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+
+
+  }
